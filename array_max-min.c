@@ -8,8 +8,8 @@ void main()
 	while(n<5)
 	{
 		int p=10-a[n];
-		printf("10-%d=%d\n",a[n],p);
-		printf("1<=%d<=10",p);
+		printf("10-%d=%d   ",a[n],p);
+		printf("1<=%d<=10\n",p);
 		
 		n++;
 	}
