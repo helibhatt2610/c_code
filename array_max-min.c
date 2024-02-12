@@ -7,7 +7,9 @@ void main()
 	//ahi number 1 to 10 ni vachhe lidhelo chee
 	while(n<5)
 	{
-		printf("10-%d=%d\n",a[n],10-a[n]);
+		int p=10-a[n];
+		printf("10-%d=%d\n",a[n],p);
+		printf("1<=%d<=10",p);
 		
 		n++;
 	}
