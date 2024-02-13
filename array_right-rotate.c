@@ -2,22 +2,23 @@
 
 void main()
 {
-	int a[5]={1,2,3,4,5};
+	int a[5]={1,10,15,7,5};
 	int n=0;
-	while(n<10)
+	while(n<5)
 	{
-		if(n<5)
+		n++;
+		if(n<4)
 		{
-			printf("no:%d\n",a[n]);
-			
+			printf("%d\n",a[n]);
 		}
 		else
 		{
-			printf("no:%d\n",a[n-5]);
-			
+			printf("%d\n",a[5-n]);
 		}
-		n++;
+		
+		
 	}
+
 
 	
 }
