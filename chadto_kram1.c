@@ -5,18 +5,22 @@ void main()
 	int a[5]={10,15,20,7,2};
 	int n=0;	
 	int i=0;
-	while(i<100)
+	while(n<5)
 	{
-		if(i==a[n])
+		while(i<100)
 		{
-			printf("%d",a[n]);
+			if(i==a[n])
+			{
+				printf("%d\n",a[n]);
+			
+			}
+			else
+			{
+				printf("");
+			
+			}
 			i++;
-		}
-		else
-		{
-			printf("");
-			i++;
-		}
-		
+		}int i=0;
+		n++;
 	}
 }
