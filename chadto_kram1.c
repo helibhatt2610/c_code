@@ -9,12 +9,12 @@ void main()
 	{
 		if(i==a[n])
 		{
-			System.out.println("%d",a[n]);
+			printf("%d",a[n]);
 			i++;
 		}
 		else
 		{
-			System.out.println("");
+			printf("");
 			i++;
 		}
 		
