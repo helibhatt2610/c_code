@@ -5,9 +5,9 @@ void main()
 	int a[5]={10,15,20,7,2};
 	int n=0;	
 	int i=0;
-	while(n<5)
+	while(i<21)
 	{
-		while(i<100)
+		while(n<5)
 		{
 			if(i==a[n])
 			{
@@ -19,8 +19,8 @@ void main()
 				printf("");
 			
 			}
-			i++;
-		}int i=0;
-		n++;
+			n++;
+		}n=0;
+		i++;
 	}
 }
