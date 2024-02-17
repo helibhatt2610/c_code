@@ -1,13 +1,12 @@
-#include<stdio.h>
+ #include <stdio.h>
 
 void main()
 {
-	char str[]="i am Heli";
+	char str[]="i am heli";
 	int n=0;
- 	while(n<10)
+ 	while(str[n]!='\0')
 	{
-		printf("%c:%d\n",str[n],n);
-		n++;
+			n++;		
 	}
-	printf("\nahi %d char che",n);
+		printf("ahi %d char che\n",n);
 }
