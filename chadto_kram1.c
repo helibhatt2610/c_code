@@ -14,11 +14,6 @@ void main()
 				printf("%d\n",a[n]);
 			
 			}
-			else
-			{
-				printf("");
-			
-			}
 			n++;
 		}n=0;
 		i++;
