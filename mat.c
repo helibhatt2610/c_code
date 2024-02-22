@@ -46,14 +46,17 @@ void main()
 			if(An2==2)
 			{
 				printf(" %d\n",a[An1][An2]);
+				An2++;
 			}
 			else
 			{
 				printf(" %d ",a[An1][An2]);
+				An2++;
 			}
-			An2++;
+			
 			
 		}
+		An2=0;
 		An1++;
 		
 		
