@@ -8,7 +8,7 @@ void main()
 {
 	struct print p;
 	p.st[100] = "student";
-	
-//	printf("%c\n",str[2]);
-	printf("%s\n",st);
+	p.a = 100;
+	printf("%d\n",p.a);
+	printf("%s\n",p.st);
 }
